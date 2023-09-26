@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: rgb(35, 35, 146);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+}
+
+form {
+    background: darkslategrey;
+    padding: 80px;
+}
+   
+.head {
+    font-size: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.label {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.select {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 40px;
+
+}
+
+.btn {
+    width: 100%;
+    text-align: center;
+}
+
+.input {
+    margin-top: 10px;
+    padding: 10px 40px;
+    width: 90%;
+}
